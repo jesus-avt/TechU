@@ -75,11 +75,11 @@ Peticion que obtiene las tarjetas de un cliente.
 http://localhost:3000/api-banca-web/v0//customer/{customerId_ObjectId}/accounts/{accountId_ObjectId}
 Peticion que obtiene cuentas y operaciones de un cliente.
 
-### *Operaciones*
+### *Cuentas*
 #### POST
 backend-api-web\src\routes\accounts.js
 http://localhost:3000/api-banca-web/v0/operations/{{customerId_ObjectId}}/{{accountId}}/{{destinationAccountId}}
-Petición que permite realizar transferencias entre cunetas de clientes .
+Petición que permite realizar transferencias entre cuentas de clientes .
 http://localhost:3000/api-banca-web/v0/accounts/{{NRO_CTA}}
 Peticion que obtiene informacion basica de una cuenta.
 
