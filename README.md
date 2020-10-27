@@ -16,6 +16,7 @@ en el presente curso, usando principalmente NodeJS, Polymer 3.
 9.	Conversión de moneda medinate el consumo de un api cuando las cuentas son de distinta moneda
 ## Variables
 VG_HOST=cluster0.jaggg.mongodb.net
+
 VG_NAME_BD=BMG_APTU_API_BACK
 VG_USER_DB=back-user
 VG_PASS_DB=i500xSadVtZdybpN
