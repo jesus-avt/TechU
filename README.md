@@ -18,12 +18,19 @@ en el presente curso, usando principalmente NodeJS, Polymer 3.
 VG_HOST=cluster0.jaggg.mongodb.net
 
 VG_NAME_BD=BMG_APTU_API_BACK
+
 VG_USER_DB=back-user
+
 VG_PASS_DB=i500xSadVtZdybpN
+
 VG_JWT=kasnxXasmxAsd1sj9S
+
 VG_MINUTOS_ACTIVOS=15m
+
 VG_API_EXCHANGE_RATE=https://api.cambio.today/v1/quotes/
+
 VG_API_KEY_EXCHANGE_RATE=4620|HiTENtqwJraRjynsHQq0oWf9pJ8DW_tU
+
 ##Dependencias 
 Segun el archivo package.json  
     "bcrypt": "^3.0.0",
