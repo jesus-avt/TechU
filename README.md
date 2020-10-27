@@ -44,12 +44,10 @@ npm install
 npm run dev
 
 ## Funcionalidades
---------------------------
 ### *Autenticacion*
 #### POST
 backend-api-web\src\routes\auth.js
 Petición que permite la autenticacion del usuario y la creación de un TSEC.
------------------------
 ### *Usuarios*
 #### POST
 backend-api-web\src\routes\users.js
@@ -57,17 +55,17 @@ Peticion que registra al cliente, en la colección *c_user_access_credentials*, 
 #### PUT
 backend-api-web\src\routes\users.js
 Peticion que actualiza la contraseña de un usuario,en la colección *c_user_access_credentials*, para inscribirse valida el numero de tarjeta clave del cajero datos de la *tarjeta* del *cliente*.
--------------------------
+
 ### *Clientes*
 backend-api-web\src\routes\customers.js
 #### GET
-##http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/account
+http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/account
 Peticion que obtiene las cuentas de un cliente*.
-##http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/cards
+http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/cards
 Peticion que obtiene las tarjetas de un cliente.
-##http://localhost:3000/api-banca-web/v0//customer/{customerId_ObjectId}/accounts/{accountId_ObjectId}
-Petición que obtiene cuentas y operaciones de un cliente.
--------------------------------
+http://localhost:3000/api-banca-web/v0//customer/{customerId_ObjectId}/accounts/{accountId_ObjectId}
+Peticion que obtiene cuentas y operaciones de un cliente.
+
 ### *Operaciones*
 #### POST
 backend-api-web\src\routes\accounts.js
