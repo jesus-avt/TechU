@@ -61,11 +61,11 @@ Peticion que actualiza la contraseña de un usuario,en la colección *c_user_acc
 ### *Clientes*
 backend-api-web\src\routes\customers.js
 #### GET
-http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/accounts
+"http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/accounts"
 Peticion que obtiene las cuentas de un cliente*.
-http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/cards
+"http://localhost:3000/api-banca-web/v0/customer/{customerId_ObjectId}/cards"
 Peticion que obtiene las tarjetas de un cliente.
-http://localhost:3000/api-banca-web/v0//customer/{customerId_ObjectId}/accounts/{accountId_ObjectId}
+"http://localhost:3000/api-banca-web/v0//customer/{customerId_ObjectId}/accounts/{accountId_ObjectId}"
 Petición que obtiene cuentas y operaciones de un cliente.
 -------------------------------
 ### *Operaciones*
