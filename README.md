@@ -45,12 +45,13 @@ npm run dev
 
 ## Funcionalidades
 ### *Autenticacion*
-#### POST
 backend-api-web\src\routes\auth.js
+#### POST
+http://localhost:3000/api-banca-web/v0/users
 Petición que permite la autenticacion del usuario y la creación de un TSEC.
 ### *Usuarios*
-#### POST
 backend-api-web\src\routes\users.js
+#### POST
 Peticion que registra al cliente, en la colección *c_user_access_credentials*, para inscribirse valida el numero de tarjeta clave del cajero datos de la *tarjeta* del *cliente*.
 #### PUT
 backend-api-web\src\routes\users.js
